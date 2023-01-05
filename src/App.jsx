@@ -9,7 +9,9 @@ function App() {
         <h1>HoloDash</h1>
         <p>Are you ready to explore the HoloDash world?</p>
       </div>
-      <Post path="1.md"/>
+      <div className="posts-container">
+        <Post path="1.md"/>
+      </div>
     </div>
   );
 }
