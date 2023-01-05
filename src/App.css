@@ -21,7 +21,7 @@
 }
 
 .post {
-  max-width: 50vw;
+  width: max(50vw, 1000px);
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
