@@ -26,8 +26,8 @@ function Post(props) {
   const toggleRender = () => {
     setRender(!render);
   };
-  const title = text.split("\r\n")[0].split(" ").slice(1).join(" ");
-  const content = text.split("\r\n\r\n").slice(1).join("\r\n\r\n");
+  const title = text.split(/\r?\n/)[0].split(" ").slice(1).join(" ");
+  const content = text.split(/\r?\n/).slice(1).join("\n");
   return (
     valid ? <div className="post">
       <h2 onClick={toggleRender} className="post-name">
