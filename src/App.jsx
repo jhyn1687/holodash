@@ -1,4 +1,5 @@
 import Post from "./components/Post"
+import postList from "./posts.json"
 import "./App.css";
 
 function App() {
@@ -8,9 +9,15 @@ function App() {
       <div className="title">
         <h1>HoloDash</h1>
         <p>Are you ready to explore the HoloDash world?</p>
+        <p>Kyle Santos, Ashwin Subbaraman, Kevin Lee, Eva Liu, Tony Yuan</p>
+        <p>Business Inquiries: <a href="mailto:playholodash@gmail.com">playholodash@gmail.com</a></p>
       </div>
-      <div className="posts-container">
-        <Post path="1.md"/>
+      <div className="content">
+        <div className="posts-container">
+          {postList.map((element, index) => {
+            return <Post path={element} render={index === 0} />
+          })}
+        </div>
       </div>
     </div>
   );
