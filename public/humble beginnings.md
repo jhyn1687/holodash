@@ -17,7 +17,7 @@ at work on bringing it to life. We will be sharing updates on our
 progress as well as sneak peeks at gameplay in the future,
 so stay tuned!
 
-You can find our Game Design Doc [here](https://www.notion.so/HoloDash-Design-Document-963d6f47452e41c99baf3217f8e87f3e).
+You can find our Game Design Doc [here](https://smart-sodium-aff.notion.site/HoloDash-Design-Document-963d6f47452e41c99baf3217f8e87f3e).
 
 We can't wait for you to join us on this journey and be a part of
 bringing HoloDash to life.
