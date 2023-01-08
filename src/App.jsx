@@ -1,5 +1,8 @@
 import Post from "./components/Post"
 import postList from "./posts.json"
+import {MdEmail as Email} from "react-icons/md"
+import {RiTwitterFill as Twitter} from "react-icons/ri"
+import {GrReddit as Reddit} from "react-icons/gr"
 import "./App.css";
 
 function App() {
@@ -10,7 +13,11 @@ function App() {
         <h1>HoloDash</h1>
         <p>Are you ready to explore the HoloDash world?</p>
         <p>Kyle Santos, Ashwin Subbaraman, Kevin Lee, Eva Liu, Tony Yuan</p>
-        <p>Business Inquiries: <a href="mailto:playholodash@gmail.com">playholodash@gmail.com</a></p>
+        <div className="social-icons">
+          <a href="mailto:playholodash@gmail.com"><Email /></a>
+          <a href="https://twitter.com/holodash"><Twitter /></a>
+          <a href="https://www.reddit.com/user/PlayHoloDash"><Reddit /></a>
+        </div>
       </div>
       <div className="content">
         <div className="posts-container">
