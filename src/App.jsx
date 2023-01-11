@@ -10,9 +10,9 @@ function App() {
   return (
     <div id="App">
       <div className="title">
-        <h1>HoloDash</h1>
+        <img id="Logo" src="HoloDash_Logo_Seattle.png"></img>
         <p>Are you ready to explore the HoloDash world?</p>
-        <p>Kyle Santos, Ashwin Subbaraman, Kevin Lee, Eva Liu, Tony Yuan</p>
+        <p id="Names">Kyle Santos, Ashwin Subbaraman, Kevin Lee, Eva Liu, Tony Yuan</p>
         <div className="social-icons">
           <a href="mailto:playholodash@gmail.com"><Email /></a>
           <a href="https://twitter.com/holodash"><Twitter /></a>
