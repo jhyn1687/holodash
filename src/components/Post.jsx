@@ -1,5 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import { useState, useEffect } from "react";
+import rehypeRaw from 'rehype-raw';
 
 function Post(props) {
   const [text, setText] = useState("");
@@ -26,16 +27,16 @@ function Post(props) {
   const toggleRender = () => {
     setRender(!render);
   };
-  const title = text.split(/\r?\n/)[0].split(" ").slice(1).join(" ");
+  const title = text.split(/\r?\n/)[0].split(" ").slice(1).join("_");
   const content = text.split(/\r?\n/).slice(1).join("\n");
   return (
     valid ? <div className="post">
       <h2 onClick={toggleRender} className="post-name">
-        {title}
+        {">" + title + "_"}
       </h2>
       {render && (
         <div>
-          <ReactMarkdown children={content} />
+          <ReactMarkdown rehypePlugins={[rehypeRaw]} children={content} />
         </div>
       )}
       <hr />
