@@ -2,7 +2,7 @@
 
 #### 01/25/2023
 
-We're heading into week 3 of development, and we're ramping it up.
+We're heading into week 3 of development, and we're starting to ramp it up.
 
 But first, a sneak peek at our main character!
 
