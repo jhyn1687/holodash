@@ -2,9 +2,19 @@
 
 #### 01/30/2023
 
-<video className="post-img" controls> 
-  <source src="trailer.mp4" type="video/mp4">
-</video>
+<div className="video-container">
+<div className="video-responsive">
+  <iframe
+    width="853"
+    height="480"
+    src="https://www.youtube.com/embed/IpdHZmImsdA"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+    title="Embedded youtube"
+  > </iframe>
+</div>
+</div>
 
 We're so excited to bring you the cinematic trailer for HoloDash.
 

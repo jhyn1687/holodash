@@ -23,9 +23,11 @@ function App() {
       </div>
       <div className="content">
         <div className="posts-container">
-          {postList.map((element, index) => {
-            return <Post path={element} render={index === 0} />
-          })}
+          <div className="posts-constraint">
+            {postList.map((element, index) => {
+              return <Post path={element} render={index === 0} />
+            })}
+          </div>
         </div>
       </div>
     </div>
