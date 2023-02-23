@@ -20,4 +20,5 @@ We have some upcoming planned features that didn't make it in time for this alph
 Please test our game out and leave us your feedback! We appreciate it lots.
 
 Sincerely,
+
 The HoloDash Team

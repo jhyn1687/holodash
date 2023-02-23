@@ -22,6 +22,7 @@ In addition, we've been working on the progression loop of the game. Since we're
 We're so grateful for the feedback and support that we've received and we can't wait for you to experience the game for yourself. Thank you for your continued support and stay tuned for more updates on HoloDash!
 
 Sincerely,
+
 The HoloDash Team
 
 P.S. We have a Press Kit now, you can find it [here](//hd-presskit.jhyn.dev/).
