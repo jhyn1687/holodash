@@ -4,7 +4,7 @@
 
 <img src="poster.png" className="post-img" />
 
-This week, we are putting the final touches on HoloDash. Expect v1.0 on Thursday. 
+This week, we are putting the final touches on HoloDash. Next release we plan to have:
 
 - Upgrade shop functionality
 - Augments spawn on boss death

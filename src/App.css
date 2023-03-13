@@ -39,7 +39,7 @@
 .posts-constraint {
   display: flex;
   flex-direction: column;
-  width: max(50%, 1000px);
+  width: max(50%, 1080px);
   max-width: 85%;
 }
 
